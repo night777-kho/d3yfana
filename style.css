@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* start header */
+.header-header{
+    background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.548)), url(img/hero-bg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header-header .navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 15%;
+}
+
+.header-header .navbar-nav .logo-navbar span{
+    color: #dc143c;
+}
+
+.header-header .navbar-nav .logo-navbar{
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.header-header .navbar-nav ul li{
+    display: inline-block;
+}
+
+.header-header .navbar-nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.header-header .navbar-nav ul li a:hover{
+    color: #dc143c;
+}
+
+.content-header{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-header h1 span{
+    color: #dc143c;
+}
+
+.content-header h1{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+
+.content-header .button-header{
+    background-color: transparent;
+    padding: 7px 18px;
+    color: #dc143c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border: solid 1px #dc143c;
+    border-radius: 2px;
+    position: absolute;
+    left: 40%;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.content-header .button-header:hover{
+    background-color: #dc143c;
+    color: white;
+}
+/* finish header */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.header-services{
+    padding-top: 5%;
+    background-color: white;
+}
+
+.max-width-services{
+    width: 95%;
+    margin: auto;
+}
+
+.max-width-services span{
+    color: #dc143c;
+}
+
+.max-width-services h3{
+    font-size: 55px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.container-card-services{
+    display: flex;
+    margin: auto;
+}
+
+.card-services{
+    background: linear-gradient(#29323cb6, #29323cb6), url(img/img-1.png);
+    margin: 15px;
+    padding: 1% 2%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.box-card-sevices img{
+    width: 90px;
+    padding-bottom: 8px;
+}
+
+.box-card-sevices h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.box-card-sevices p{
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.836);
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+/* end service */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.header-project{
+    padding-top: 5%;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+
+.max-width-project{
+    margin: auto;
+}
+
+.title-project span{
+    color: #dc143c;
+}
+
+.title-project{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.line-1-project{
+    display: flex;
+    justify-content: center;
+}
+
+.line-1-project .card-project-title{
+    width: 32%;
+    height: 350px;
+    background-color: #485563;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.line-1-project .card-project-title h2{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 40px;
+    padding-bottom: 13px;
+}
+
+.line-1-project .card-project-title h5{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.line-1-project .card-project-title p{
+    color: rgba(255, 255, 255, 0.842);
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.line-1-project .card-project-img{
+    position: relative;
+}
+
+.line-1-project .card-project-img img{
+    width: 600px;
+    height: 300px;
+}
+
+.line-1-project .card-project-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.548)), url(img/img-1.png);
+}
+/* end project */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.about{
+    background-color: white;
+    padding-top: 15%;
+}
+
+.max-width-about{
+    width: 51%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+.max-width-about .about-title{
+    width: 69%;
+}
+
+.max-width-about .about-title h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 1%;
+}
+
+.max-width-about .about-title h3{
+    color: rgba(0, 0, 0, 0.836);
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding-bottom: 1%;
+}
+
+.max-width-about .about-title p{
+    color: rgba(0, 0, 0, 0.753);
+    line-height: 23px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+
+.max-width-about .about-title button{
+    border: solid 2px #dc143c;
+    text-transform: capitalize;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all ease 0.4s 0s;
+}
+
+.max-width-about .about-title button:hover{
+    background-color: #dc143c;
+    color: white;
+}
+
+.max-width-about .about-img img{
+    border-radius: 4px;
+}
+
+.max-width-about .about-title span{ 
+    color: #dc143c;
+}
+/* end about */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.contact{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: white;
+}
+
+.max-width-contact{
+    width: 56%;
+    margin: auto;
+}
+
+.max-width-contact .title-contact{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.max-width-contact .title-contact span{
+    color: #dc143c;
+}
+
+.all-card-contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px 25px;
+}
+
+.card-contact .box-card-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12% 13%;
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px 0px #0000004a;
+    transition: all ease 0.5s 0s;
+    width: 100%;
+}
+
+.card-contact .box-card-contact:hover{
+    box-shadow: 2px 2px 10px 2px #0000004a;
+}
+
+.card-contact .box-card-contact h2{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.box-card-contact p:nth-child(2){
+    padding-bottom: 10px;
+}
+/* end contact */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.footer{
+    padding: 60px;
+    background-color: #29323c;
+}
+
+.max-width-footer{
+    text-align: center;
+}
+
+.info-footer h4{
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 1%;
+    letter-spacing: 1px;
+}
+
+.info-footer span{
+    color: #dc143c;
+}
+
+.info-footer p:nth-child(2){
+    color: #dc143c;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 1%;
+}
+
+.info-footer .solution{
+    color: white;
+}
+
+.info-footer p:nth-child(3){
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
